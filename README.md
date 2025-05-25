@@ -60,9 +60,7 @@ This project demonstrates my ability to:
 
 **Mark-Daniels Tamakloe**  
 - MSc Computer Science – Washington University in St. Louis
-    
-- MSc Mathematical Sciences – East Tennessee State University
--  
+- MSc Mathematical Sciences – East Tennessee State University 
 [LinkedIn](https://www.linkedin.com/in/mark-daniels-tamakloe-934785a9)
 
 
