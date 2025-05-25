@@ -6,18 +6,7 @@ This project was completed as part of the **JPMorgan Chase Quantitative Research
 
 ##  Task Overview
 
-### ✅ Task 1: Data Exploration and Forecasting
-- Analyzed historical monthly natural gas prices (Oct 2020 – Sep 2024).
-- Built a forecast model using monthly seasonal averages to extrapolate prices for the next 12 months.
-- Designed a function to estimate price given any future date.
-- Visualized seasonality trends and future price forecasts.
-
-### ✅ Task 2: Valuing a Natural Gas Storage Contract
-- Created a pricing function to estimate the economic value of a storage contract using injected and withdrawn natural gas volumes.
-- Included factors like monthly storage cost, capacity constraints, and market prices.
-- Applied test cases to simulate contract value and validate strategy logic.
-
-### ✅ Task 3: Credit Risk Prediction
+### ✅ Task 1: Credit Risk Prediction
 - Explored and cleaned a loan dataset with borrower features and default indicators.
 - Applied outlier handling (capping) and standardized numeric features.
 - Built and compared three models:
@@ -27,7 +16,7 @@ This project was completed as part of the **JPMorgan Chase Quantitative Research
 - Used `GridSearchCV` and cross-validation to optimize performance.
 - Evaluated models using ROC-AUC, confusion matrices, and test accuracy.
 
-### ✅ Task 4: FICO Score Bucketing & Default Risk Profiling
+### ✅ Task 2: FICO Score Bucketing & Default Risk Profiling
 - Transformed continuous `fico_score` into discrete credit bands using `KBinsDiscretizer` (quantile-based).
 - Validated that each bucket had balanced records.
 - Analyzed default rates across buckets and observed a clear inverse relationship between score and default likelihood.
