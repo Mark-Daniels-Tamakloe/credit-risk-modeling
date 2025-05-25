@@ -6,7 +6,7 @@ It focuses on developing a predictive model to estimate the **probability of def
 
 ---
 
-## 📊 Project Workflow
+##  Project Workflow
 
 ### ✅ Step 1: Data Understanding & Summary Statistics
 - Reviewed key metrics like `income`, `loan_amt_outstanding`, `fico_score`, etc.
@@ -35,14 +35,14 @@ It focuses on developing a predictive model to estimate the **probability of def
 
 ---
 
-## 🧠 Algorithms Used
+## Algorithms Used
 - Logistic Regression
 - Gaussian Naive Bayes
 - Random Forest Classifier
 
 ---
 
-## 🧪 Metrics Tracked
+## Metrics Tracked
 - Accuracy
 - Precision, Recall, F1-Score
 - ROC-AUC
@@ -50,7 +50,7 @@ It focuses on developing a predictive model to estimate the **probability of def
 
 ---
 
-## 🧰 Technologies
+## Technologies
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -59,7 +59,7 @@ It focuses on developing a predictive model to estimate the **probability of def
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 | File                  | Description                             |
 |-----------------------|-----------------------------------------|
@@ -69,12 +69,12 @@ It focuses on developing a predictive model to estimate the **probability of def
 
 ---
 
-## 📌 Outcome
+## Outcome
 Achieved a **ROC-AUC score of ~0.999** with the Random Forest model, demonstrating highly accurate credit risk prediction for future loan decisions.
 
 ---
 
-## 🔗 Credits
+##  Credits
 Built as part of the **J.P. Morgan Virtual Internship Program** hosted by **Forage**.
 
 ---
