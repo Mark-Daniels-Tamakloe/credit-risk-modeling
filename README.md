@@ -1,81 +1,72 @@
-# Credit Risk Modeling
+# 💳 Credit Risk Modeling – JPMorgan Chase Virtual Experience
 
-This project was completed as part of the **J.P. Morgan Quantitative Research Virtual Experience** on Forage.
-
-It focuses on developing a predictive model to estimate the **probability of default (PD)** for loan borrowers using customer financial data. The pipeline integrates exploratory data analysis (EDA), outlier handling, feature scaling, and machine learning techniques with hyperparameter tuning.
+This project was completed as part of the **JPMorgan Chase Quantitative Research Virtual Experience** on Forage. It simulates real-world tasks faced by quantitative analysts in credit risk modeling, including data preprocessing, outlier handling, predictive modeling, and credit score bucketing.
 
 ---
 
-##  Project Workflow
+##  Task Overview
 
-### ✅ Step 1: Data Understanding & Summary Statistics
-- Reviewed key metrics like `income`, `loan_amt_outstanding`, `fico_score`, etc.
-- Identified potential outliers and skewed distributions.
+### ✅ Task 1: Data Exploration and Forecasting
+- Analyzed historical monthly natural gas prices (Oct 2020 – Sep 2024).
+- Built a forecast model using monthly seasonal averages to extrapolate prices for the next 12 months.
+- Designed a function to estimate price given any future date.
+- Visualized seasonality trends and future price forecasts.
 
-### ✅ Step 2: Visualize & Handle Outliers
-- Used boxplots to detect outliers.
-- Applied **percentile capping** to limit extreme values.
+### ✅ Task 2: Valuing a Natural Gas Storage Contract
+- Created a pricing function to estimate the economic value of a storage contract using injected and withdrawn natural gas volumes.
+- Included factors like monthly storage cost, capacity constraints, and market prices.
+- Applied test cases to simulate contract value and validate strategy logic.
 
-### ✅ Step 3: Feature Scaling
-- Standardized numerical features using `StandardScaler` to improve model stability.
-
-### ✅ Step 4: Model Training & Evaluation
-- Split dataset into training, validation, and test sets.
-- Used **GridSearchCV** to optimize hyperparameters for:
+### ✅ Task 3: Credit Risk Prediction
+- Explored and cleaned a loan dataset with borrower features and default indicators.
+- Applied outlier handling (capping) and standardized numeric features.
+- Built and compared three models:
   - Logistic Regression
-  - Naive Bayes
-  - Random Forest
+  - Gaussian Naive Bayes
+  - Random Forest Classifier
+- Used `GridSearchCV` and cross-validation to optimize performance.
+- Evaluated models using ROC-AUC, confusion matrices, and test accuracy.
 
-### ✅ Step 5: Final Model Selection
-- Selected the model with the best **ROC-AUC score** on validation set.
-- Evaluated final model on test set using:
-  - Confusion Matrix
-  - ROC Curve
-  - Classification Metrics
+### ✅ Task 4: FICO Score Bucketing & Default Risk Profiling
+- Transformed continuous `fico_score` into discrete credit bands using `KBinsDiscretizer` (quantile-based).
+- Validated that each bucket had balanced records.
+- Analyzed default rates across buckets and observed a clear inverse relationship between score and default likelihood.
+- Visualized the distribution and risk profile of each segment.
 
----
 
-## Algorithms Used
-- Logistic Regression
-- Gaussian Naive Bayes
-- Random Forest Classifier
 
 ---
 
-## Metrics Tracked
-- Accuracy
-- Precision, Recall, F1-Score
-- ROC-AUC
-- Confusion Matrix
-
----
-
-## Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+## 📈 Tools & Libraries Used
+- Python (Pandas, NumPy)
+- Scikit-learn (GridSearchCV, KBinsDiscretizer)
+- Seaborn & Matplotlib
 - Jupyter Notebook
+- Git & GitHub
 
 ---
 
-## Repository Contents
-
-| File                  | Description                             |
-|-----------------------|-----------------------------------------|
-| `Loan_Data.csv`       | Customer loan dataset                   |
-| `Untitled.ipynb`      | Complete notebook with all analysis     |
-| `README.md`           | This documentation                      |
-
----
-
-## Outcome
-Achieved a **ROC-AUC score of ~0.999** with the Random Forest model, demonstrating highly accurate credit risk prediction for future loan decisions.
+## 📌 Outcome
+This project demonstrates my ability to:
+- Clean and preprocess large datasets
+- Engineer features and handle outliers
+- Build and tune classification models
+- Translate numerical risk into business-intelligible categories
+- Communicate results through plots and markdown narrative
 
 ---
 
-##  Credits
-Built as part of the **J.P. Morgan Virtual Internship Program** hosted by **Forage**.
+##  Author
+
+**Mark-Daniels Tamakloe**  
+MSc Computer Science – Washington University in St. Louis  
+[LinkedIn](https://www.linkedin.com/in/mark-daniels-tamakloe-934785a9) 
 
 ---
+
+## 🔗 Acknowledgement
+
+This project was built as part of the [JPMorgan Chase Quantitative Research Virtual Experience](https://www.theforage.com/virtual-internships/prototype/jpmorgan-chase/quantitative-research) on Forage.
+
+
 
